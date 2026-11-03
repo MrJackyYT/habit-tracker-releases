@@ -10,7 +10,8 @@ Habits, tasks, projects, notes, a calendar and a focus timer in one app.
 | Windows | `Habit-Tracker-Setup.exe` |
 | Linux   | `Habit-Tracker.AppImage`  |
 
-The app tells you by itself when a new version is out.
+**Updates:** from version 1.6 on, the app on Windows and Linux updates itself – it downloads a new version in the
+background and installs it when you close it. On Android press *Update* in the app and confirm *Update this app?*.
 
 **Where is my data?** Only on your device. On a computer it is also kept in the folder **Documents › Habit Tracker**
 (Settings → Data → Open folder). To move it to another device use Settings → Data → Export backup / Import backup.
