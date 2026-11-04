@@ -25,3 +25,4 @@ is not from the Play Store – choose *Install anyway*.
 **Linux:** the `.deb` installs like any other app (open it, or `sudo apt install ./Habit-Tracker.deb`) and adds Habit Tracker
 to the app menu. The `.AppImage` needs no installing: make the file executable (right click → Properties → Allow executing,
 or `chmod +x Habit-Tracker.AppImage`) and open it.
+If it does not start, what it printed is in `~/.cache/habit-tracker-start.log`.
