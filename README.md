@@ -4,18 +4,6 @@ Navade, opravila, projekti, zapiski, koledar, fokus in delo – vse v eni aplika
 
 **Android** · **Windows** · **Linux** · **Mac** · **iPhone** (v brskalniku)
 
-## Prenos
-
-**[Prenesi najnovejšo različico](https://github.com/MrJackyYT/habit-tracker-releases/releases/latest)**
-
-| Naprava | Datoteka |
-|---|---|
-| Android | `HabitTracker.apk` |
-| Windows | `Habit-Tracker-Setup.exe` |
-| Linux | `Habit-Tracker.deb` (Ubuntu, Debian, Mint …) ali `Habit-Tracker.AppImage` |
-| macOS | `Habit-Tracker-mac.dmg` (Intel in Apple silicon) |
-| iPhone / iPad | brez datoteke – spletna aplikacija: [mrjackyyt.github.io/habit-tracker-releases](https://mrjackyyt.github.io/habit-tracker-releases) |
-
 ---
 
 ## ⚠️ Aplikacijo zazna kot nevarno
@@ -24,21 +12,11 @@ Habit Tracker ni iz Google Play, Microsoft Store ali App Store in nima plačljiv
 
 Google bo v letu 2027 povsod zahteval, da so vse aplikacije na Androidu od preverjenih razvijalcev. Aplikacijo nepreverjenega razvijalca bo še vedno mogoče namestiti, a po daljšem postopku: vklop načina za razvijalce, ponovni zagon telefona in **en dan čakanja**. Trenutno preučujem Googlove smernice in možnosti, da bo namestitev čim enostavnejša.
 
-### Namestitev
-
-**Android** – odpri preneseno datoteko in brskalniku dovoli nameščanje aplikacij. Google Play Protect lahko opozori, ker aplikacija ni iz Trgovine Play – izberi `Vseeno namesti`.
-
-**Windows** – zaženi namestitev in sledi korakom. Habit Tracker se doda v meni Start in na namizje. Pri modrem oknu »Windows je zaščitil računalnik« klikni `Več informacij` in nato `Vseeno zaženi`.
-
-**Linux** – `.deb` se namesti kot vsaka druga aplikacija (odpri jo ali `sudo apt install ./Habit-Tracker.deb`) in doda Habit Tracker v meni aplikacij. `.AppImage` ne potrebuje namestitve: datoteko naredi izvršljivo (desni klik → Lastnosti → Dovoli izvajanje ali `chmod +x Habit-Tracker.AppImage`) in jo odpri. Če se ne zažene, je razlog zapisan v `~/.cache/habit-tracker-start.log`.
-
-**macOS** – odpri `.dmg` in povleci Habit Tracker v *Aplikacije*. Aplikacija nima Applovega certifikata, zato macOS prvič reče, da je ne more preveriti: odpri *Sistemske nastavitve → Zasebnost in varnost*, se pomakni dol in pritisni *Vseeno odpri* (ali desni klik na aplikacijo → *Odpri*). Če še vedno piše, da je poškodovana, enkrat v Terminalu zaženi `xattr -cr "/Applications/Habit Tracker.app"`. Blokiranje med fokusom ob začetku in koncu vpraša za geslo Maca.
-
-**iPhone / iPad** – odpri [mrjackyyt.github.io/habit-tracker-releases](https://mrjackyyt.github.io/habit-tracker-releases) v **Safariju**, pritisni *Deli* (kvadrat s puščico) → *Dodaj na začetni zaslon* → *Dodaj*. Habit Tracker se potem odpira z začetnega zaslona kot aplikacija, čez cel zaslon in tudi brez interneta. Podatki ostanejo na iPhonu – v nastavitvah Safarija ne briši podatkov spletne aplikacije in občasno naredi varnostno kopijo (Nastavitve → Podatki → Izvozi varnostno kopijo). Na iPhonu blokiranje drugih aplikacij ni mogoče, opomniki pa se pokažejo samo, ko je aplikacija odprta.
-
-### Posodobitve
-
-Na Windows in Linux se aplikacija posodobi sama: novo različico prenese v ozadju in jo namesti, ko jo zapreš. Na Androidu v aplikaciji pritisneš *Posodobi* in potrdiš *Posodobi to aplikacijo?*. Na macOS aplikacija pokaže, da je izšla nova različica – preneseš nov `.dmg` in zamenjaš aplikacijo (podatki ostanejo). Spletna aplikacija (iPhone) je vedno najnovejša.
+| | |
+|---|---|
+| **Android** | Brskalniku dovoli nameščanje aplikacij, nato pri opozorilu izberi `Vseeno namesti`. |
+| **Windows** | Pri modrem oknu »Windows je zaščitil računalnik« klikni `Več informacij` in nato `Vseeno zaženi`. |
+| **Mac** | Prvič aplikacijo odpri z desnim klikom in `Odpri`. Posodobitve na Macu prenašaš ročno. |
 
 ---
 
