@@ -4,6 +4,15 @@ Navade, opravila, projekti, zapiski, koledar, fokus in delo – vse v eni aplika
 
 **Android** · **Windows** · **Linux** · **Mac** · **iPhone** (v brskalniku)
 
+> **📱 Obvestilo za iPhone uporabnike**
+>
+> Za iPhone in iPad ni datoteke za namestitev, ker Apple dovoli aplikacije samo iz App Stora (objava stane približno 100 € na leto). Habit Tracker na iPhonu deluje kot spletna aplikacija:
+>
+> 1. V **Safariju** odpri [mrjackyyt.github.io/habit-tracker-releases](https://mrjackyyt.github.io/habit-tracker-releases).
+> 2. Pritisni **Deli** (kvadrat s puščico) → **Dodaj na začetni zaslon** → **Dodaj**.
+>
+> Potem se odpira z začetnega zaslona kot aplikacija, čez cel zaslon in tudi brez interneta. Podatki ostanejo na iPhonu – v nastavitvah Safarija ne briši podatkov te strani in občasno naredi varnostno kopijo (Nastavitve › Podatki › Izvozi varnostno kopijo). Na iPhonu blokiranje drugih aplikacij ni mogoče, opomniki pa se pokažejo samo, ko je aplikacija odprta.
+
 ---
 
 ## ⚠️ Aplikacijo zazna kot nevarno
